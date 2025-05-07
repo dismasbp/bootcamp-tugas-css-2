@@ -1,92 +1,200 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Dismas Biodata Profile</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
+
     <body>
+        <!-- Header Navbar -->
+        <header>
+            <div class="logo">DISMASBP</div>
+            <nav>
+                <ul class="nav nav-default">
+                    <li><a href="#header">Header</a></li>
+                    <li><a href="#biodata">Biodata</a></li>
+                    <li><a href="#portofolio">Portofolio</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <!-- Section 1: Menu -->
-    <table width="100%" border="1">
-        <tr>
-            <td><b>DISMASBP</b></td>
-            <td align="right">
-                Header | Biodata | Portfolio
-            </td>
-        </tr>
-    </table>
+        <!-- Main -->
+        <main>
+            <!-- Section 1: Opening -->
+            <section>
+                <div class="container">
+                    <div class="text-column">
+                        <div>
+                            <h1>Welcome To My Website!</h1>
+                        </div>
+                        <div>
+                            <p>This is the header with 2 columns of my website</p>
+                        </div>
+                        <div>
+                            <button class="btn">See More</button>
+                        </div>
+                    </div>
+                    <div class="image-column">
+                        <img src="images/Pas_Foto_8.png" alt="Profile Picture">
+                    </div>
+                </div>
+            </section>
+            
+            <hr>
 
-    <!-- Section 2: Header -->
-    <table width="100%" border="1">
-        <tr>
-            <td width="50%" valign="top">
-                <h3>Welcome To My Website!</h3>
-                <p>This is the header of my website</p>
-                <button>See More</button>
-            </td>
-            <td width="50%" align="center">
-                <img src="https://badoystudio.com/wp-content/uploads/2023/07/contoh-coding-html-website-biodata.jpg" alt="Header Image" width="600" height="400">
-            </td>
-        </tr>
-    </table>
+            <!-- Section 2: Biodata -->
+            <section class="margin-large">
+                <div style="text-align: center;">
+                    <h1 style="color: #007bff;">About Me</h1>
+                </div>
+                <div class="margin-large-bottom" style="text-align: center;">
+                    <p>I am a programmer who is learning new things related to programming.</p>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <div style="color: #007bff;">Full Name:</div>
+                        <div>Dismas Banar Purnandi</div>
+                    </div>
+                    <div class="grid-item">
+                        <div style="color: #007bff;">Education:</div>
+                        <div>S1 Information System</div>
+                    </div>
+                    <div class="grid-item">
+                        <div style="color: #007bff;">Jobs</div>
+                        <div>Programmer</div>
+                    </div>
+                    <div class="grid-item">
+                        <div style="color: #007bff;">Contact:</div>
+                        <div>
+                            <a href="mailto:dismas.business@gmail.com" target="_blank" style="color: inherit !important; text-decoration: none !important;">dismas.business@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div style="color: #007bff;">Hobby:</div>
+                        <div>Coding, Workout</div>
+                    </div>
+                    <div class="grid-item">
+                        <div style="color: #007bff;">Address:</div>
+                        <div>Sleman</div>
+                    </div>
+                </div>
+            </section>
+            
+            <hr>
 
-    <!-- Section 3: Biodata -->
-    <table width="100%" border="1">
-        <tr>
-            <td colspan="3" align="center">
-                <h2>About Me</h2>
-                <p>I am a programmer who is learning new things related to programming.</p>
-            </td>
-        </tr>
-        <tr>
-            <td align="center">
-                Full Name :<br>
-                Dismas Banar Purnandi
-            </td>
-            <td align="center">Education :<br>
-                Amikom Yogyakarta University
-            </td>
-            <td align="center">Jobs :<br>
-                Freelancer
-            </td>
-        </tr>
-        <tr>
-            <td align="center">Contact :<br>
-                <a href="mailto:dismas.business@gmail.com" target="_blank">dismas.business@gmail.com</a>
-            </td>
-            <td align="center">Hobby :<br>
-                Working Out
-            </td>
-            <td align="center">Address :<br>
-                Besi blok D-12, Sukoharjo, Ngaglik, Sleman
-            </td>
-        </tr>
-    </table>
+            <!-- Section 3: Portfolio -->
+            <section class="margin-large">
+                <div class="margin-large-bottom" style="text-align: center;">
+                    <h1 style="color: #007bff;">Portfolio</h1>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="images/58vapehouse.JPG" alt="58 Vapehouse">
+                        <h2>58 Vapehouse Company Profile</h2>
+                        <p>Create company profile for 58 Vapehouse using PHP (Codeigniter) and collaborate with other company.</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/f2blest.JPG" alt="F2Blest">
+                        <h2>Flora Fauna Bumi Lestari Company Profile</h2>
+                        <p>Create company profile for Flora Fauna Bumi Lestari using PHP (Codeigniter).</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/expect.JPG" alt="Expect">
+                        <h2>Expect Company Profile</h2>
+                        <p>Create company profile for Expect using PHP (Codeigniter) and collaborate with other company.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-    <!-- Section 4: Portofolio -->
-    <table width="100%" border="1">
-        <tr>
-            <td colspan="3" align="center">
-                <h2>Portfolio</h2>
-            </td>
-        </tr>
-        <tr>
-            <td align="center">
-                <img src="images/58vapehouse.JPG" alt="58 Vapehouse" width="300" height="200"><br>
-                <b>58 Vapehouse Company Profile</b><br>
-                Create company profile for 58 Vapehouse using PHP (Codeigniter) and collaborate with other company.
-            </td>
-            <td align="center">
-                <img src="images/f2blest.JPG" alt="F2Blest" width="300" height="200"><br>
-                <b>Flora Fauna Bumi Lestari Company Profile</b><br>
-                Create company profile for Flora Fauna Bumi Lestari using PHP (Codeigniter).
-            </td>
-            <td align="center">
-                <img src="images/expect.JPG" alt="Expect" width="300" height="200"><br>
-                <b>Expect Company Profile</b><br>
-                Create company profile for Expect using PHP (Codeigniter) and collaborate with other company.
-            </td>
-        </tr>
-    </table>
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 Dismasbp. All Rights Reserved.</p>
+        </footer>
 
+        <!-- Section 1: Menu -->
+        <!-- <table width="100%" border="1">
+            <tr>
+                <td><b>DISMASBP</b></td>
+                <td align="right">
+                    Header | Biodata | Portfolio
+                </td>
+            </tr>
+        </table> -->
+
+        <!-- Section 2: Header -->
+        <!-- <table width="100%" border="1">
+            <tr>
+                <td width="50%" valign="top">
+                    <h3>Welcome To My Website!</h3>
+                    <p>This is the header of my website</p>
+                    <button>See More</button>
+                </td>
+                <td width="50%" align="center">
+                    <img src="https://badoystudio.com/wp-content/uploads/2023/07/contoh-coding-html-website-biodata.jpg" alt="Header Image" width="600" height="400">
+                </td>
+            </tr>
+        </table> -->
+
+        <!-- Section 3: Biodata -->
+        <!-- <table width="100%" border="1">
+            <tr>
+                <td colspan="3" align="center">
+                    <h2>About Me</h2>
+                    <p>I am a programmer who is learning new things related to programming.</p>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    Full Name :<br>
+                    Dismas Banar Purnandi
+                </td>
+                <td align="center">Education :<br>
+                    Amikom Yogyakarta University
+                </td>
+                <td align="center">Jobs :<br>
+                    Freelancer
+                </td>
+            </tr>
+            <tr>
+                <td align="center">Contact :<br>
+                    <a href="mailto:dismas.business@gmail.com" target="_blank">dismas.business@gmail.com</a>
+                </td>
+                <td align="center">Hobby :<br>
+                    Working Out
+                </td>
+                <td align="center">Address :<br>
+                    Besi blok D-12, Sukoharjo, Ngaglik, Sleman
+                </td>
+            </tr>
+        </table> -->
+
+        <!-- Section 4: Portofolio -->
+        <!-- <table width="100%" border="1">
+            <tr>
+                <td colspan="3" align="center">
+                    <h2>Portfolio</h2>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <img src="images/58vapehouse.JPG" alt="58 Vapehouse" width="300" height="200"><br>
+                    <b>58 Vapehouse Company Profile</b><br>
+                    Create company profile for 58 Vapehouse using PHP (Codeigniter) and collaborate with other company.
+                </td>
+                <td align="center">
+                    <img src="images/f2blest.JPG" alt="F2Blest" width="300" height="200"><br>
+                    <b>Flora Fauna Bumi Lestari Company Profile</b><br>
+                    Create company profile for Flora Fauna Bumi Lestari using PHP (Codeigniter).
+                </td>
+                <td align="center">
+                    <img src="images/expect.JPG" alt="Expect" width="300" height="200"><br>
+                    <b>Expect Company Profile</b><br>
+                    Create company profile for Expect using PHP (Codeigniter) and collaborate with other company.
+                </td>
+            </tr>
+        </table> -->
     </body>
 </html>
